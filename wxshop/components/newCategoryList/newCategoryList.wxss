@@ -1,0 +1,13 @@
+@import "../../app.wxss";
+/* 新品分类样式 */
+.imgbox{
+  background-color: rgba(247, 242, 242,0.5);
+  margin: 10rpx 14rpx;
+}
+.img{
+  width: 340rpx;
+  height: 320rpx;
+}
+/* .all{
+  background-color: #eeeeee;
+} */

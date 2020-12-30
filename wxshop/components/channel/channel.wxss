@@ -1,0 +1,8 @@
+@import "../../app.wxss";
+
+/* ---------------- */
+.img{
+  width: 70rpx;
+  height: 70rpx;
+  padding:0 20rpx;
+}

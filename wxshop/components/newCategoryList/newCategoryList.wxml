@@ -1,0 +1,18 @@
+<!-- 新品分类 居家、餐厨等… -->
+<view class="all">
+  <view wx:for="{{newCategoryList}}" wx:key="index">
+    <view class="t-center bgc-w" >{{item.name}}
+      <view class="box mtb20">
+        <view class="flex f-wrap j-betw ">
+          <view wx:for="{{newCategoryList[index].goodsList}}" wx:key="index">
+            <view class="imgbox bs">
+              <image src="{{item.list_pic_url}}" class="img "></image>
+            <view class="fs28 txd-sp t-center">{{item.name}}</view>
+            <view class="cr mtb10">￥{{item.retail_price}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

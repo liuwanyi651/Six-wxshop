@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "search":"../../components/search/search",
+    "banner":"../../components/banner/banner",
+    "channel":"../../components/channel/channel",
+    "brandList":"../../components/brandList/brandList",
+    "newGoods":"../../components/newGoods/newGoods",
+    "selection":"../../components/selection/selection",
+    "newCategoryList":"../../components/newCategoryList/newCategoryList"
+  },
+  "navigationBarBackgroundColor": "#BB0000",
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true 
+}

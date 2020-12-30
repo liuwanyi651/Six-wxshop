@@ -1,0 +1,16 @@
+<!-- 专题精选 -->
+<view class="t-center mt20 fs30">专题精选</view>
+<scroll-view scroll-x="true" class="scrollbox">
+  <view class="rollbox flex">
+    <view wx:for="{{selection}}" wx:key="index" class="goodsbox">
+      <view class="imgbox">
+        <image src="{{item.item_pic_url}}" class="img"></image>
+      </view>
+      <view class="flex mt10">
+        <view class="fs26">{{item.title}}</view>
+        <view class="fs26 cr ml10">￥{{item.price_info}} 起</view>
+      </view>
+      <view class="c179 fs26 mt10">{{item.subtitle}}</view>
+    </view>
+  </view>
+</scroll-view>

@@ -1,0 +1,7 @@
+<swiper indicator-dots="true" autoplay="true" duration="500" circular="true">
+  <swiper-item wx:for="{{banner}}" wx:key="index">
+      <view class="picbox">
+        <image src="{{item.image_url}}" class="img"></image>
+      </view>
+  </swiper-item>
+</swiper>

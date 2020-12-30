@@ -1,0 +1,12 @@
+@import "../../app.wxss";
+/* 专题精选 */
+.goodsbox{
+  padding:20rpx 10rpx;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.img{
+  width:560rpx;
+  height:300rpx;
+}

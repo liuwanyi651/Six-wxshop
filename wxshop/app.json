@@ -1,0 +1,55 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/special/special",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/my/my",
+    "pages/topicDetails/topicDetails"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#BB0000",
+    "navigationBarTitleText": "严选商城",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor": "#BB0000",
+    "color": "#707070",
+    "list":[
+      {
+        "text":"首页",
+        "iconPath":"assets/home.png",
+        "pagePath": "pages/home/home",
+        "selectedIconPath": "assets/home-a.png"
+      },
+      {
+        "text":"专题",
+        "iconPath":"assets/special.png",
+        "pagePath": "pages/special/special",
+        "selectedIconPath": "assets/special-a.png"
+      },
+      {
+        "text":"分类",
+        "iconPath":"assets/classify.png",
+        "pagePath": "pages/category/category",
+        "selectedIconPath": "assets/classify-a.png"
+      },
+      {
+        "text":"购物车",
+        "iconPath":"assets/cart.png",
+        "pagePath": "pages/cart/cart",
+        "selectedIconPath": "assets/cart-a.png"
+      },
+      {
+        "text":"我的",
+        "iconPath":"assets/my.png",
+        "pagePath": "pages/my/my",
+        "selectedIconPath": "assets/my-a.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

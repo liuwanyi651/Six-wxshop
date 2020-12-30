@@ -1,0 +1,19 @@
+@import "../../app.wxss";
+
+.img{
+  width: 330rpx;
+  height: 260rpx;
+  padding: 3rpx 17rpx;
+}
+/* 品牌制造商标题 价格 */
+.name{
+  top: 26rpx;
+  left: 41rpx;
+  font-size: 30rpx;
+}
+.price{
+  top: 72rpx;
+  left: 41rpx;
+  font-size: 26rpx;
+  color: rgb(206, 199, 199);
+}

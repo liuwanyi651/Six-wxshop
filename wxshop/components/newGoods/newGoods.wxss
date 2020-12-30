@@ -1,0 +1,56 @@
+@import "../../app.wxss";
+.img{
+  width: 330rpx;
+  height: 260rpx;
+  padding: 3rpx 17rpx;
+}
+/* 新品首发样式 */
+.nwebox{
+  width: 100%;
+  height: 240rpx;
+  background-color: rgb(241,247,252);
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:rgb(131, 181, 231);
+}
+.nweboxs{
+  width: 100%;
+  height: 240rpx;
+  background-color: rgb(252,244,221);
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:rgb(221, 185, 77) ;
+}
+.see{
+  padding: 10rpx 22rpx;
+  margin-top: 20rpx;
+  background-color: rgb(183, 210, 236);
+  color:rgb(131, 181, 231);
+  font-size: 24rpx;
+}
+.sees{
+  padding: 10rpx 22rpx;
+  margin-top: 20rpx;
+  background-color: rgb(235, 216, 160);
+  color:rgb(233, 184, 49);
+  font-size: 24rpx;
+}
+.goodsbox{
+  padding:20rpx 10rpx;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.img{
+  width:260rpx;
+  height:260rpx;
+}
+.textname{
+  width: 250rpx;
+}

@@ -1,0 +1,18 @@
+
+<view class="top">
+  <!-- 搜索 -->
+  <search></search>
+</view>
+<!-- 轮播图 -->
+<banner banner='{{list.banner}}'></banner>
+<!-- 居家分类列表 -->
+<channel channel='{{list.channel}}'></channel>
+<!-- 品牌制造商直供及图片 -->
+<brandList brandList='{{list.brandList}}'></brandList>
+<!-- 新品首发及图片、人气推荐-->
+<newGoods newGoods='{{list.newGoods}}' title="新品推荐"></newGoods>
+<newGoods newGoods='{{list.hotGoods}}' title="人气推荐·好物精选"></newGoods>
+<!-- 专题精选 -->
+<selection selection='{{list.topicList}}'></selection>
+<!-- 新品分类列表 居家、餐厨等… -->
+<newCategoryList newCategoryList='{{list.newCategoryList}}'></newCategoryList>

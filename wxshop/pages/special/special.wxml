@@ -1,0 +1,12 @@
+<!-- 法1 用bindscrolltolower 滚动到底部/右边时触发 -->
+<!-- <scroll-view scroll-y="true" style="height:100vh" bindscrolltolower="getTopic"> -->
+  <!-- 法2 用微信小程序本来的触底事件 -->
+  <view>
+    <view wx:for="{{topiclist}}" wx:key="index" bindtap="goTopicDetails" data-item="{{item}}">
+      <image src="{{item.scene_pic_url}}" class="img"></image>
+      <view class="t-center fs28 m20">{{item.title}}</view>
+      <view class="t-center c179 fs26 m20">{{item.subtitle}}</view>
+      <view class="t-center cr fs26 mb20">{{item.price_info}}元起</view>
+    </view>
+  </view>
+<!-- </scroll-view> -->

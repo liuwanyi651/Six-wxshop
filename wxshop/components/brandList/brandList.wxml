@@ -1,0 +1,8 @@
+<view class="t-center fs30 mt30 mb20">品牌制造商直供</view>
+<view class="flex f-wrap j-center">
+  <view wx:for="{{brandList}}" wx:key="index" class=" p-r">
+    <image src="{{item.new_pic_url}}" class="img"></image>
+    <view class="name p-a">{{item.name}}</view>
+    <view class="price p-a">{{item.floor_price}}起</view>
+  </view>
+</view>
