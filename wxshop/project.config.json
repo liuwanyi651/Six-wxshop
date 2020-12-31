@@ -62,6 +62,24 @@
         {
           "name": "pages/special/special",
           "pathName": "pages/special/special",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/my/my",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/category/category",
+          "pathName": "pages/category/category",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/topicDetails/topicDetails",
+          "pathName": "pages/topicDetails/topicDetails",
           "scene": null
         }
       ]

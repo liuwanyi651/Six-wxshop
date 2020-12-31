@@ -18,6 +18,12 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    goSmallClass(e){
+      console.log(e);
+      let id = e.currentTarget.dataset.item.id
+      wx.navigateTo({
+        url:`/pages/smallCategory/smallCategory?id=${id}`,
+      })
+    },
   }
 })

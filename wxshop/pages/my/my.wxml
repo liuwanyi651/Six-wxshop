@@ -1,2 +1,30 @@
-<!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<!-- 上面头像 -->
+<view class="topbox p-r">
+  <view class="allbox p-a flex">
+    <view class="leftbox flex">
+      <view class="imgbox">
+        <!-- <image src="../../assets/head.jpg" class="headimg"></image> -->
+        <image src="{{userInfo.avatarUrl}}" class="headimg"></image>
+      </view>
+      <view class="name cw">
+        昵称：{{userInfo.nickName}}
+      </view>
+    </view>
+    <view class="rightbox p-r">
+      <!-- <image src="../../assets/right.png" class="rightimg p-a"></image> -->
+      <!-- 使用 button 组件，并将 open-type 指定为 getUserInfo 类型，获取用户基本信息。 -->
+      <!-- 使用 open-data 展示用户基本信息。 -->
+      <button class="rightimg p-a"   size="mini" open-type="getUserInfo" 
+      bindgetuserinfo="getUser">授权登录</button>
+    </view>
+  </view>
+</view>
+<!-- 下面图标 -->
+<view class="flex f-wrap">
+  <view wx:for="{{arr}}" wx:key="index" class="arr w-33  flex-clum j-center a-center {{(index+1)%3?'border':'borders'}}">
+      <view>
+        <van-icon name="{{item.icon}}" size="50rpx" color="#888888" />
+      </view>
+      <view class="mt10 c8">{{item.name}}</view>
+  </view>
+</view>

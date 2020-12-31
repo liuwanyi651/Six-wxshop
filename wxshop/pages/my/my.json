@@ -1,5 +1,7 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "van-icon":"/vant/icon/index"
+  },
   "navigationBarBackgroundColor": "#BB0000",
   "navigationBarTitleText": "我的",
   "enablePullDownRefresh": true 

@@ -158,6 +158,12 @@ align-items: center;
 .w-45{
   width: 45%;
 }
+.w-48{
+  width: 48%;
+}
+.w-49{
+  width: 49%;
+}
 .w-25{
   width: 25%;
 }
@@ -268,7 +274,9 @@ align-items: center;
 }
 .pd8{
   padding: 8rpx;
-  
+}
+.pdr63{
+  padding-right: 63rpx;
 }
 .pd10{
   padding: 10rpx;   
@@ -395,6 +403,9 @@ align-items: center;
 .c0{
   color: #0000;
 }
+.c8{
+  color:#888888;
+}
 /* 边框 */
 .brs{
   border-right: 1rpx solid black;
@@ -402,6 +413,9 @@ align-items: center;
 
 .brs_E{
   border-right: 1rpx solid #EEE;
+}
+.bls_E{
+  border-left: 1rpx solid #EEE;
 }
 .bls{
   border-left: rgb(15, 130, 134) 4rpx solid;

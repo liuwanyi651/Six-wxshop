@@ -1,5 +1,5 @@
 <view class="flex j-betw">
-  <view wx:for="{{channel}}" wx:key="index" >
+  <view wx:for="{{channel}}" wx:key="index" bindtap="goSmallClass" data-item="{{item}}" data-index="{{index}}">
     <image src="{{item.icon_url}}" class="img mt40 "></image>
     <view class="t-center fs26 ">{{item.name}}</view>
   </view>

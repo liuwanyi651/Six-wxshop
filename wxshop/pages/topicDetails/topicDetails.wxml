@@ -1,2 +1,7 @@
-<!--pages/topicDetails/topicDetails.wxml-->
-<text>pages/topicDetails/topicDetails.wxml</text>
+<!-- 
+  wxParse插件解析富文本
+  //这里data中arr为bindName绑定的数据
+ -->
+<import src="../../wxParse/wxParse.wxml"/> 
+
+<template is="wxParse" data="{{wxParseData:arr.nodes}}"/>

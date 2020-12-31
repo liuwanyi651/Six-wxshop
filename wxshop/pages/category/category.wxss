@@ -1,1 +1,50 @@
-/* pages/category/category.wxss */
+/*搜索*/
+.max{
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+/* 大容器 */
+.allbox{
+  margin-top: 10vh;
+  position: relative;
+}
+/* 左边盒子 */
+.leftbox{
+  width: 18%;
+  position: fixed;
+  left: 0;
+  top: 10vh;
+  z-index: 5;
+}
+.box{
+  color: #df1919;
+  font-weight: bold;
+  border-left:6rpx solid #df1919;
+}
+/* 右边盒子 */
+.rightbox{
+  width: 82%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.imgbox{
+  width: 92%;
+  height: 260rpx;
+}
+.img{
+  width: 100%;
+  height: 260rpx;
+}
+.name{
+  position: absolute;
+  left: 196rpx;
+  top: 119rpx;
+}
+.classimg{
+  width: 200rpx;
+  height: 200rpx;
+}

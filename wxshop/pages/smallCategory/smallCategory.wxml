@@ -1,0 +1,22 @@
+<van-tabs active="{{active}}" bind:click="onClick" class="all">
+  <!-- 头部导航名字列表 -->
+  <view wx:for="{{navData}}" wx:key="index">
+    <van-tab title="{{item.name}}">
+      <view class="empty"></view>
+      <view class="topbox bs flex-clum j-center a-center">
+        <view class="fs28">{{item.name}}</view>
+        <view class="c179 fs26 mt10">{{item.front_desc}}</view>
+      </view>
+      <!-- 导航列表下相对应的商品 -->
+      <view class="flex f-wrap j-betw a-center">
+        <view wx:for="{{list}}" wx:key="index" class="w-49 bs">
+          <view class="imgbox">
+            <image src="{{item.list_pic_url}}" class="img"></image>
+          </view>
+          <view class="t-center fs26">{{item.name}}</view>
+          <view class="cy t-center fs26 pd20 fw-b">￥{{item.retail_price}}</view>
+        </view>
+      </view>
+    </van-tab>
+  </view>
+</van-tabs>
